@@ -2,7 +2,7 @@
   "name": "pokemon",
   "version": "0.1.0",
   "private": true,
-  "homepages": "https://darmaheev.github.io",
+  "homepage": "https://darmaheev.github.io",
   "dependencies": {
     "axios": "^0.18.0",
     "gh-pages": "^2.0.1",
