@@ -5,8 +5,10 @@ export const Wrapper = styled.div`
   position: relative;
   cursor: pointer;
   min-height: 200px;
-  width: 500px;
+  max-width: 500px;
   flex-direction: row;
+  flex-wrap: wrap; 
+  justify-content: center;
   background-color: #ffffff;
   margin: 8px 15px;
   border: 1px solid #f0f0f0;
@@ -38,6 +40,7 @@ export const Info = styled.div`
   flex: 1;
   flex-direction: column;
   padding: 25px;
+  text-align: center;
 `;
 
 export const Title = styled.span`

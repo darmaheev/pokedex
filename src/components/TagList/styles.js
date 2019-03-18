@@ -4,4 +4,8 @@ export const Wrapper = styled.div`
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  ${props => props.center && `
+    justify-content: center;    
+  `}
+
 `;

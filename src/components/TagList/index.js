@@ -10,7 +10,7 @@ const TagList = ({
   handleDelete
 }) => {
   return (
-    <Wrapper>
+    <Wrapper center={typeof handleDelete !== "function"}>
       {tags.map(tag => (<TagItem key={tag} handleDelete={handleDelete}>{tag}</TagItem>))}
     </Wrapper>
   );
